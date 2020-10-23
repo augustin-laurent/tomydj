@@ -8,7 +8,7 @@
     "start": "node index.js"
   },
   "engines": {
-    "node": "12.x"
+    "node": "15.x"
   },
   "dependencies": {
     "@discordjs/opus": "^0.3.2",
@@ -20,5 +20,6 @@
     "opusscript": "^0.0.7",
     "yt-search": "^2.2.4",
     "ytdl-core": "^3.4.2"
-  }
+  },
+  "author": "augustin-laurent"
 }
