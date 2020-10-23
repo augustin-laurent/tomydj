@@ -17,7 +17,7 @@ module.exports = {
         })
 
         let embed = new MessageEmbed()
-        .setAuthor("Commandes de "+client.user.username, "/assets/Music.gif")
+        .setAuthor("Commandes de "+client.user.username, "https://raw.githubusercontent.com/SudhanPlayz/Discord-MusicBot/master/assets/Music.gif")
         .setColor("BLUE")
         .setDescription(allcmds)
         .setFooter(`Pour avoir les informations d'une commande spécifique : ${client.config.prefix}help [command]`)
